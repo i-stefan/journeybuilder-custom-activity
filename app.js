@@ -10,7 +10,7 @@ const routes = require('./routes/index');
 const activityRouter = require('./routes/activity');
 
 const app = express();
-/*
+
 app.use(
   helmet({
     contentSecurityPolicy: {
@@ -20,7 +20,7 @@ app.use(
       },
     },
   }),
-);*/
+);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
